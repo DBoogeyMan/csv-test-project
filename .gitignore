@@ -1,0 +1,7 @@
+access.log
+other_vhosts_access.log
+error.log
+vendor/
+.git/
+.idea
+public/csv/

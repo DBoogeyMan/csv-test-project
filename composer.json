@@ -1,0 +1,18 @@
+{
+    "name": "c078/csv-test-project",
+    "authors": [
+        {
+            "name": "dmytrohakman94",
+            "email": "dhakman@sharpmids.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CSVTestApp\\": "src/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^2.30",
+        "myclabs/php-enum": "^1.7"
+    }
+}

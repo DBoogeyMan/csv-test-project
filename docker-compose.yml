@@ -1,0 +1,14 @@
+version: "3.2"
+services:
+  csv-apache-php-container:
+    build: docker/apache-php
+    container_name: csv-apache-php-container
+    volumes:
+      - .:/var/www/html/
+      - $HOME/.ssh:/home/docker/.ssh
+    ports:
+      - 80:80
+    networks:
+      - backend
+networks:
+  backend:
