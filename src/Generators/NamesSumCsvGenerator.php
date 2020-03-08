@@ -5,8 +5,9 @@ namespace CSVTestApp\Generators;
 use CSVTestApp\Enums\GlobalEnums;
 use CSVTestApp\Helpers\DataFormattingHelper;
 use CSVTestApp\Helpers\FileWriteHelper;
+use CSVTestApp\Interfaces\GeneratorInterface;
 
-class NamesSumCsvGenerator
+class NamesSumCsvGenerator implements GeneratorInterface
 {
     private $fileWriteHelper;
     private $dataFormattingHelper;

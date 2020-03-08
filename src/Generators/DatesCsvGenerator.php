@@ -6,8 +6,9 @@ use CSVTestApp\Enums\GlobalEnums;
 use CSVTestApp\Helpers\DataFormattingHelper;
 use CSVTestApp\Helpers\DateTimeHelper;
 use CSVTestApp\Helpers\FileWriteHelper;
+use CSVTestApp\Interfaces\GeneratorInterface;
 
-class DatesCsvGenerator
+class DatesCsvGenerator implements GeneratorInterface
 {
     private $dateTimeHelper;
     private $fileWriteHelper;
